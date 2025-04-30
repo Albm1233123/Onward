@@ -19,9 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "client": "npm start --prefix frontend",
-    "server": "npm start --prefix backend",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "server": "npm start --prefix backend", 
+    "dev": "concurrently \"npm run server\" \"npm start\""
   },
   "eslintConfig": {
     "extends": [
